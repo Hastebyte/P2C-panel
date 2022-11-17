@@ -1,0 +1,7 @@
+---
+
+- hosts: dbservers
+  tasks:
+    - debug:
+        var: ansiblex 
+      ignore_errors: True
